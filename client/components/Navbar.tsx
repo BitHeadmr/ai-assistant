@@ -12,7 +12,6 @@ export function Navbar() {
 
   // ✅ Single source of truth — no more getToken() / removeToken()
   const { isLoggedIn, user, logout } = useAuth();
-
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
