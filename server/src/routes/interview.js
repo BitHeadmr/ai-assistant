@@ -4,7 +4,7 @@ const {
   submitAnswer,
   getInterviews,
   getInterview,
-} = require("../controllers/interviewController.js");
+} = require("../controllers/interviewcontroller.js");
 const { protect } = require("../middleware/auth.js");
 
 const router = express.Router();
