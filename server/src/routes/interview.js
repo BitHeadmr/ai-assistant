@@ -4,8 +4,8 @@ const {
   submitAnswer,
   getInterviews,
   getInterview,
-} = require("../controllers/interviewController");
-const { protect } = require("../middleware/auth");
+} = require("../controllers/interviewController.js");
+const { protect } = require("../middleware/auth.js");
 
 const router = express.Router();
 

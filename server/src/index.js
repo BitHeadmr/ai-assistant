@@ -1,11 +1,11 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const connectDB = require("./config/db");
+const connectDB = require("./config/db.js");
 require("dotenv").config();
-const authRoutes = require("./routes/auth");
-const interviewRoutes = require("./routes/interview");
-const resumeRoutes = require("./routes/resume");
+const authRoutes = require("./routes/auth.js");
+const interviewRoutes = require("./routes/interview.js");
+const resumeRoutes = require("./routes/resume.js");
 
 
 connectDB();
